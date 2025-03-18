@@ -187,7 +187,6 @@ if (!isset($_SESSION['login'])) {
                 this.captcha = captchaCode("can", 150, 50, "lightblue", "white", "28px", 5);
             },
             //自訂身分證格式驗證
-
         },
         mounted() {
             this.getCaptcha();
